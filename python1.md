@@ -26,6 +26,7 @@ we should receive
 
 in response.
 
+
 ###A note on names
 
 As scientists, we often want to be very explicit when recording information. This is good. But spaces in the name of a variable in Python, will cause the name to be read wrong. Observe:
@@ -90,7 +91,7 @@ Record scratch! Why did we get 6/5 = 1? We've been working with what are called 
 
 That's better.
 
-##A not on types
+##A note on types
 
 Python has several native types. The most well-used are ints, floats and strings. Integers are whole numbers, floats can contain decimals, and strings are characters. To move between them, we use _casting_.
 

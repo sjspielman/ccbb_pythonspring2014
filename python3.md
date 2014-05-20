@@ -48,7 +48,7 @@ Let's liberate this data so we can do useful and fun things with it.
 That looks a little nicer. What's different here? Upon what have we split location? What are these objects? We can find out with type:
 
 ```python
->>> type(lin)
+>>> type(line)
 <type 'str'>
 ```
 
@@ -116,7 +116,7 @@ You want to close your file when you're done to prevent accidentally writing to 
 Python only allows you to have a couple files open at a time. Therefore, it's important to keep track of files and close them when you are do ne. To avoid this wholly, you can use a 'with' statement.
 
 ```python
->>> with open('out.txt', 'w') as out_file:
+>>> with open('out.txt', 'w') as outfile:
 ...    for item in money_dict.keys():
 ...        outfile.write('It cost %s dollars to sample %s location' %(money_dict[item], item) + '\n')
 ...    outfile.close()
